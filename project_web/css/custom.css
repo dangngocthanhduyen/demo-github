@@ -1,0 +1,153 @@
+body
+{
+    margin: 0;
+    font-size: 15px;
+    color: #222222;
+    display: inline;
+    font-family: Arial;
+}
+
+#header
+{
+    height: 40px;
+    background: #f0f0f1; 
+    width: 100%;
+    position: fixed;
+    padding: 20px 0 0 20px;
+}
+#img
+{
+    width: 100%;
+}
+.link-home
+{
+    padding: 0 0 0 20px;
+}
+.link-duongda
+{
+    font-weight: bold;
+}
+.productVisual {
+    height: 540px;
+    background-size: cover !important;
+}
+.productVisual h2 {
+    text-align: center;
+    line-height: 540px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #222222;
+}
+a:link {
+    text-decoration: none;
+}
+a {
+    cursor: pointer;
+    color: #666666;
+}
+.location
+{
+	margin-top: 13px;
+}
+#content
+{
+    width: 100%;
+    min-height: 800px;
+
+}
+#content .contentCenter {
+    max-width: 1300px;
+    margin: 20px;
+}
+ul, ol, li {
+    list-style: none;
+    line-height: 35px;
+}
+.list-title
+{
+    font-weight: bold;
+    color: #222222;
+}
+.head-list 
+{
+	padding-left: 20px;
+	font-weight: bold;
+    color: #222222;
+    font-size: 25px;
+}
+.productListWrap {
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+
+.productListWrap .productListArea {
+    overflow: hidden;
+    padding-left: 40px;
+}
+.productListWrap .productListArea .resultSort {
+    overflow: hidden;
+}
+.productListWrap .productListArea .resultSort .resultNum {
+    float: left;
+    line-height: 34px;
+    font-size: 13px;
+    color: #666666;
+}
+
+.productListWrap .productListArea .resultSort .sort {
+    float: right;
+}
+.productListWrap .productListArea .resultSort .sort .select {
+    width: 175px;
+    height: 34px;
+    font-size: 13px;
+    color: #666666;
+    border: 1px solid #222222;
+}
+.productListWrap .productLNB {
+    float: left;
+    width: 280px;
+}
+
+
+
+.productListWrap .productListArea .productList ul li a {
+    display: block;
+    margin-right: 40px;
+}
+.productListWrap .productListArea .productList ul li .thumb {
+    display: block;
+}
+.productListWrap .productListArea .productList ul li .desc {
+    display: block;
+    overflow: hidden;
+    height: 32px;
+    margin: 10px;
+    line-height: 16px;
+    font-size: 13px;
+    color: #222222;
+}
+.productListWrap .productListArea .productList ul li {
+    float: left;
+    width: 33.3%;
+    margin-top: 60px;
+    text-align: center;
+}
+.productListWrap .productListArea .productList ul li .thumb img {
+    width: 100%;
+}
+img {
+    max-width: 100%;
+    border: 0;
+    vertical-align: middle;
+}
+
+
+
+
+#footer
+{
+    width: 100%;
+    min-height: 40px;
+    background: #e8a5a6;
+}
